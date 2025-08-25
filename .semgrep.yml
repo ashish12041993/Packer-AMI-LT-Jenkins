@@ -1,0 +1,7 @@
+rules:
+  - id: avoid-print
+    patterns:
+      - pattern: print(...)
+    message: "Avoid using print(), use logging instead."
+    severity: WARNING
+    languages: [python]
